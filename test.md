@@ -69,7 +69,7 @@ References - 허태규
 - Use case description은 SRS의 요구사항 ID를 기반으로 작성되었다.
 
 아래 그림은 본 프로젝트의 Use case diagram이다.  
-![Use case diagram (p.6)](img/sds-page-06.png)
+![Use case diagram (p.6)](img/UD.png)
 
 이번 장의 남은 부분은 주요 Use Case Description에 할당한다.
 
@@ -1038,7 +1038,7 @@ References - 허태규
 
 ## 3. Class diagram
 이번 장은 시스템의 주요 클래스들과 그 관계를 보여주는 Class diagram을 제공한다. 전체 시스템 구조를 파악하기 위해 주요 도메인 및 서비스 클래스를 중심으로 설계하였다.  
-![Class diagram (p.34)](img/sds-page-34.png)
+![Class diagram (p.34)](img/CD.png)
 
 ### User
 **Class Description**: 사용자 계정의 핵심 데이터. 이메일/비밀번호/닉네임/권한/상태를 가진다.
@@ -1416,9 +1416,10 @@ References - 허태규
 
 ## 5. State machine diagram
 이 장은 시스템 또는 주요 객체의 상태 변화를 보여주는 State machine diagram을 제공한다. 사용자 인증 상태 변화를 중심으로 설계하였다.  
+![State machine (p.69)](img/StateMachine)
 이 도표는 클라이언트(웹 애플리케이션) 의 상태 전이를 기술한다. 본 도표에서는 화면(뷰) 중심으로 상태를 정의 하였다. 이는 “사용자에게 무엇을 보여주고 있는지”를 기준으로 상태를 정의하며, 화면 단위 컴포지트 상태와 네트워크 요청 상태를 분리해 설명한다.  
+![State machine (p.69)](img/AuthStateMachine)
 위 다이어그램은 서버에서 인증, 계정에 관련된 처리과정을 나타낸다. 클라이언트에서 발생한 요청은 여기서 처리되고, 그 결과 이벤트(성공/실패)가 다시 클라이언트 SMD 전이 조건으로 반영된다.  
-![State machine (p.69)](img/sds-page-69.png)
 
 ---
 
