@@ -12,7 +12,7 @@
 ## [ Revision history ]
 | Revision date | Version # | Description | Author |
 |---|---|---|---|
-| 11/07/2025 | 0.01 | first draft | All team member |
+| 11/07/2025 | 1.0 | first draft | All team member |
 
 ---
 
